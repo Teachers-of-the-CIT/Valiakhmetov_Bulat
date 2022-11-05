@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a6719d316bf54889b3f8ef5f56b8de6f" Name="Diagram1">
+        <EntityTypeShape EntityType="PefumeShopModel.Category" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PefumeShopModel.Order" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PefumeShopModel.PickPoints" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PefumeShopModel.Products" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PefumeShopModel.Sale" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PefumeShopModel.User" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <AssociationConnector Association="PefumeShopModel.FK_Products_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PefumeShopModel.FK_Order_PickPoints" ManuallyRouted="false" />
+        <AssociationConnector Association="PefumeShopModel.FK_Order_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="PefumeShopModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PefumeShopModel.FK_Products_Sale" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

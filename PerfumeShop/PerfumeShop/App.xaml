@@ -1,0 +1,27 @@
+﻿<Application x:Class="PerfumeShop.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PerfumeShop"
+             StartupUri="Windows/StartWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Background" Value="#B3F4E9"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Application.Resources>
+</Application>
